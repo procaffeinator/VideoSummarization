@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783657932602",
+    "project_id": "video-summarization-add31",
+    "storage_bucket": "video-summarization-add31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783657932602:android:3d0b88ec57bf8b98c1a203",
+        "android_client_info": {
+          "package_name": "com.example.videosummarization"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2H-gDKr0ohp1-ELIYBV86xdiOBBBskRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

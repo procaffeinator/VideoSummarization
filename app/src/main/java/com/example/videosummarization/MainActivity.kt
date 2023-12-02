@@ -95,26 +95,25 @@ class MainActivity : ComponentActivity() {
                     // Code for showing progressDialog while uploading
                     progressDialog = ProgressDialog(this@MainActivity)
                     getContent.launch("video/*")
-//                    showVideoView=true
+                    showTranscriptView=true
                 }) {
                     Text("Upload Video")
                 }
             }
-
-            if (showVideoView) {
-                // State after clicking "Upload Video" button, showing "Placeholder for Video"
-                Text("Placeholder for Video", fontSize = 24.sp, modifier = Modifier.padding(bottom = 16.dp))
-                Button(onClick = {
-                    showTranscriptView = true
-                    showVideoView = false
-                }) {
-                    Text("Show Video Transcript")
-                }
-            }
+//
+//            if (showVideoView) {
+//                // State after clicking "Upload Video" button, showing "Placeholder for Video"
+//                Text("Placeholder for Video", fontSize = 24.sp, modifier = Modifier.padding(bottom = 16.dp))
+//                Button(onClick = {
+//                    showTranscriptView = true
+//                    showVideoView = false
+//                }) {
+//                    Text("Show Video Transcript")
+//                }
+//            }
 
             if (showTranscriptView) {
                 // State after clicking "Show Video Transcript" button, showing "Video Transcript"
-                Text("Placeholder for Video", fontSize = 24.sp, modifier = Modifier.padding(bottom = 16.dp))
                 // If you want to show the "Upload Video" button again
 
                 Text("Video Transcript", fontSize = 18.sp, modifier = Modifier.padding(top = 16.dp))
